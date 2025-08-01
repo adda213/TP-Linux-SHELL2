@@ -17,7 +17,7 @@ for i in ${devops[@]}
 do  
     for ((j=1;j<="$N";j++))
     do 
-        FILE=${i}_`date +%y-%m-%d-%H-%M-%S-%3N`.txt
+        FILE=${i}_`date +%Y-%m-%d-%H-%M-%S-%3N`.txt
         touch $FILE
         sleep $M
     done
@@ -28,7 +28,7 @@ for i in ${data[@]}
 do  
     for ((j=1;j<="$N";j++))
     do 
-        FILE=${i}_`date +%y-%m-%d-%H-%M-%S-%3N`.txt
+        FILE=${i}_`date +%Y-%m-%d-%H-%M-%S-%3N`.txt
         touch $FILE
         sleep $M
     done
@@ -40,7 +40,7 @@ for i in ${fonctionnel[@]}
 do  
     for ((j=1;j<="$N";j++))
     do 
-        FILE=${i}_`date +%y-%m-%d-%H-%M-%S-%3N`.txt
+        FILE=${i}_`date +%Y-%m-%d-%H-%M-%S-%3N`.txt
         touch $FILE
         sleep $M
     done
